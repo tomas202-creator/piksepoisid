@@ -22,12 +22,12 @@ gsap.fromTo('#heading2 .char',{y:130},{
 const text2 = new SplitType('#heading')
 
 gsap.fromTo('#heading .char',{y:230},{
-    duration: 0.6,    
+    duration: 0.8,    
     y:0
 })
 gsap.fromTo('#text1',{opacity:0},{
-    delay:0.6,
-    duration: 0.8,    
+    delay:0.9,
+    duration: 1,    
     opacity:1
 })
 let heading3 = gsap.utils.toArray('#heading3')
@@ -36,15 +36,15 @@ heading3.forEach(item => {
     gsap.fromTo(item,{x:-100, opacity:0},{
      ease: "power3.inOut",
      stagger: 0.1,
-       delay:.1,
+       delay:0.2,
        duration: 0.8, 
        x:0,   
        opacity:1,
          scrollTrigger:{
            trigger: item,
-           start: '0 bottom',
+           start: '100 bottom',
            scrub: false,
-           markers: false,
+           markers: true,
            once: true
 
 
