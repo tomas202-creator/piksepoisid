@@ -120,6 +120,9 @@
     text-decoration: none;
     color: var(--color-1);
 }
+.footer a{
+    text-decoration: none;
+}
 .footer h5{
     padding-top: 3vh;
     font-family: "DM Sans", sans-serif;

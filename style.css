@@ -362,6 +362,9 @@
 .footer .rights{
     font-size: var(--step--1);
 }
+.footer a{
+    text-decoration: none;
+}
 .footer p a{
     text-decoration: none;
     color: var(--color-1);
