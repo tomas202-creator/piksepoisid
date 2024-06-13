@@ -44,7 +44,7 @@ heading3.forEach(item => {
            trigger: item,
            start: '100 bottom',
            scrub: false,
-           markers: true,
+           markers: false,
            once: true
 
 
